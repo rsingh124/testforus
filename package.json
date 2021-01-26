@@ -1,0 +1,20 @@
+{
+  "name": "api-basics-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build":"parcel build src/index.html",
+    "serv":"http-server public"
+  },
+  "author": "ranbir",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  },
+  "devDependencies": {
+    "bundler": "^0.8.0",
+    "parcel": "^1.12.4"
+  }
+}
